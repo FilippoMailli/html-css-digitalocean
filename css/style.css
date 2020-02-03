@@ -1,6 +1,6 @@
 .navbar-brand img {
-    max-height: 225px;
-    transform: translateY(-105px);
+    max-height: 150px;
+    transform: translateY(-68px);
 }
 
 
@@ -22,5 +22,32 @@ section .container-fluid {
     background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 2100px;
+    height: 800px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .navbar-default {
+        background-color: #0248ff;
+    }
+
+    section .container-fluid {
+        background-image: none;
+        background-color: #0248ff;
+    }
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 10px;
+    color: rgba(3,27,78,.75);
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #0069ff;
+}
+
+
+.nav > li > a {
+    padding-left: 5px;
+    padding-right: 5px;
 }
