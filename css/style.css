@@ -4,6 +4,15 @@
 }
 
 
+.navbar-default .navbar-nav > li > a {
+    font-size: 12px;
+    color: #031b4e;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #0069ff;
+}
 
 @media screen and (max-width: 1050px) {
 
@@ -16,6 +25,20 @@
     .navbar {
         position: absolute;
     }
+
+    .navbar-default .navbar-nav > li > a {
+        color: white;
+    }
+
+    .navbar-brand img {
+        color: white;
+    }
+
+    #navbar--btn:hover {
+        border-color: white;
+        color: white;
+        background-color: rgba(0,0,0,0.0);
+    }
 }
 
 section .container-fluid {
@@ -24,6 +47,8 @@ section .container-fluid {
     background-repeat: no-repeat;
     height: 800px;
 }
+
+
 
 @media screen and (max-width: 767px) {
 
@@ -37,17 +62,27 @@ section .container-fluid {
     }
 }
 
-.navbar-default .navbar-nav > li > a {
-    font-size: 10px;
-    color: rgba(3,27,78,.75);
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: #0069ff;
-}
-
-
 .nav > li > a {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+#navbar--btn {
+    border-color: #0069ff;
+    color: #0069ff;
+    font-weight: 700;
+}
+
+#navbar--btn:hover {
+    border-color: white;
+    color: white;
+    background-color: #0069ff;
+}
+
+.navbar-brand {
+    padding-right: 0;
 }
