@@ -1,6 +1,11 @@
 .navbar-brand img {
     max-height: 150px;
-    transform: translateY(-68px);
+    transform: translateY(-10px);
+    margin-right: 30px;
+}
+
+#sovrapponi-1 {
+    display: none;
 }
 
 
@@ -27,11 +32,7 @@
     }
 
     .navbar-default .navbar-nav > li > a {
-        color: white;
-    }
-
-    .navbar-brand img {
-        color: white;
+        display: none;
     }
 
     #navbar--btn:hover {
@@ -39,6 +40,16 @@
         color: white;
         background-color: rgba(0,0,0,0.0);
     }
+
+    #sovrapponi-1 {
+        display: block;
+    }
+
+    #sovrapponi-0 {
+        display: none;
+    }
+
+
 }
 
 section .container-fluid {
