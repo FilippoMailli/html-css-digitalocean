@@ -87,6 +87,10 @@ section .jumbotron {
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    #design span {
+        display: none;
+    }
 }
 
 .navbar-right {
@@ -257,14 +261,16 @@ li h3 {
     color: rgba(3,27,78,.75);
 }
 
-#dati h1 {
+#dati h1,
+#design h1 {
     font-size: 36px;
     margin-bottom: 16px;
     font-weight: 700;
     color: rgb(3, 27, 78);
 }
 
-#dati p {
+#dati p,
+#design p {
     font-size: 20px;
     margin-bottom: 64px;
     font-weight: 500;
@@ -297,4 +303,48 @@ li h3 {
     margin-top: 8px;
     margin-bottom: 16px;
     font-weight: 600;
+}
+
+#design {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f3f5f9;
+}
+
+#design #design--menu {
+    transform: translateY(250px);
+    font-size: 30px;
+}
+
+#design #design--menu:hover {
+    color: #1e69ff;
+    cursor: pointer;
+}
+
+#design .row {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 991px) {
+
+    #design #design--menu {
+        transform: translateY(180px);
+        font-size: 30px;
+    }
+}
+
+#design ul {
+    margin-left: 100px;
+}
+
+#design #design--style {
+    margin-top: -20px;
+    font-size: 30px;
+    list-style-type: circle;
+}
+
+#design #design--style:hover {
+    cursor: pointer;
+    color: blue;
+    list-style-type: disc;
 }
