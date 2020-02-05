@@ -91,6 +91,10 @@ section .jumbotron {
     #design span {
         display: none;
     }
+
+    #mappa {
+        height: 950px;
+    }
 }
 
 .navbar-right {
@@ -241,13 +245,15 @@ li h3 {
 }
 
 #businesses p,
-#ms--built .row h5 {
+#ms--built .row h5,
+#design h5 {
     font-size: 18px;
     color: #0f69ff;
 }
 
 #businesses p:hover,
-#ms--built h5:hover {
+#ms--built h5:hover,
+#design h5:hover {
     color: #005fe6;
     cursor: pointer;
 }
@@ -257,7 +263,8 @@ li h3 {
 }
 
 #dati,
-#ms--built {
+#ms--built,
+#mappa {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: white;
@@ -266,7 +273,8 @@ li h3 {
 
 #dati h1,
 #design h1,
-#ms--built h1 {
+#ms--built h1,
+#mappa h1 {
     font-size: 36px;
     margin-bottom: 16px;
     font-weight: 700;
@@ -344,6 +352,7 @@ li h3 {
 }
 
 #design #design--style {
+    color: #0069ff;
     margin-top: -20px;
     font-size: 30px;
     list-style-type: circle;
@@ -360,5 +369,83 @@ li h3 {
 #ms--built h4,
 #ms--built h5
  {
+    margin-bottom: 50px;
+}
+
+#mappa {
+    background-color: #031b4e;
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+#mappa h1 {
+    color: white;
+    margin-bottom: 150px;
+}
+
+#mappa #mappa-bianco {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#mappa #mappa-grigio {
+    color: #9da6ba;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#mappa #mappa-azzurro {
+    color: #02d1d2;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#mappa #mappa-azzurro:hover {
+    color: #005fe6;
+    cursor: pointer;
+}
+
+#mappa ul {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #354971;
+}
+
+#mappa ul:last-child {
+    border-bottom: none;
+}
+
+#ms--first-block {
+    padding-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+
+    #mappa {
+        height: 650px;
+    }
+
+}
+
+#azzurrino {
+    color: #0069ff;
+}
+
+#azzurrino:hover {
+    color: #005fe6;
+    cursor: pointer;
+}
+
+#cambio--colore {
+    background-color: white;
+    border: 1px solid #e5e8ed;
+    padding: 30px;
+}
+
+#ridimensiona--immagine {
+    max-width: 175px;
     margin-bottom: 50px;
 }
