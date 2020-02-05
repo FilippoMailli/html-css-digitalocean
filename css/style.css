@@ -95,6 +95,10 @@ section .jumbotron {
     #mappa {
         height: 950px;
     }
+
+    #ms--footer ul li i {
+        margin-top: 50px;
+    }
 }
 
 .navbar-right {
@@ -448,4 +452,74 @@ li h3 {
 #ridimensiona--immagine {
     max-width: 175px;
     margin-bottom: 50px;
+}
+
+#ms--sfondo2 {
+    height: 245px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+}
+
+#ms--sfondo2 h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+#ms--sfondo2-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #0147fe;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+
+#ms--sfondo2-button:hover {
+    opacity: 0.8;
+}
+
+#ms--footer {
+    background-color: #010e28;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+
+#ms--footer #ms--primo-white ul li:first-child {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#ms--footer #ms--primo-white ul li:hover,
+#ms--footer ul li i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#ms--footer #ms--primo-white ul li:first-child:hover {
+    cursor: text;
+}
+
+#ms--footer p {
+    padding-top: 10px;
+}
+
+#ms--bordo-margine {
+    padding: 50px 0;
+    border-top: 1px solid #343e53;
+    margin: 50px 50px;
+}
+
+#ms--footer ul li {
+    padding-bottom: 5px;
+}
+
+#ms--footer ul li i {
+    font-size: 20px;
 }
