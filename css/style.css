@@ -240,12 +240,14 @@ li h3 {
     margin-bottom: 50px;
 }
 
-#businesses p {
+#businesses p,
+#ms--built .row h5 {
     font-size: 18px;
     color: #0f69ff;
 }
 
-#businesses p:hover {
+#businesses p:hover,
+#ms--built h5:hover {
     color: #005fe6;
     cursor: pointer;
 }
@@ -254,7 +256,8 @@ li h3 {
     font-size: 12px;
 }
 
-#dati {
+#dati,
+#ms--built {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: white;
@@ -262,7 +265,8 @@ li h3 {
 }
 
 #dati h1,
-#design h1 {
+#design h1,
+#ms--built h1 {
     font-size: 36px;
     margin-bottom: 16px;
     font-weight: 700;
@@ -291,13 +295,15 @@ li h3 {
     cursor: pointer;
 }
 
-#dati .row p {
+#dati .row p,
+#ms--built .row p {
     margin-top: 12px;
     font-weight: 400;
     font-size: 16px;
 }
 
-#dati .row h4 {
+#dati .row h4,
+#ms--built .row h4 {
     color: rgb(3, 27, 78);
     font-size: 18px;
     margin-top: 8px;
@@ -341,10 +347,18 @@ li h3 {
     margin-top: -20px;
     font-size: 30px;
     list-style-type: circle;
+    max-width: 10px;
 }
 
 #design #design--style:hover {
     cursor: pointer;
     color: blue;
     list-style-type: disc;
+}
+
+#ms--built h1,
+#ms--built h4,
+#ms--built h5
+ {
+    margin-bottom: 50px;
 }
